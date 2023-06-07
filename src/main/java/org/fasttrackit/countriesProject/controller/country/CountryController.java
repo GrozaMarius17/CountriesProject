@@ -1,9 +1,10 @@
-package org.fasttrackit.countriesProject.country;
+package org.fasttrackit.countriesProject.controller.country;
 
 import lombok.RequiredArgsConstructor;
+import org.fasttrackit.countriesProject.model.country.Country;
+import org.fasttrackit.countriesProject.service.country.CountryService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RequiredArgsConstructor
